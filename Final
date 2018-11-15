@@ -1,0 +1,34 @@
+17s1 final
+
+1.概念(10道，22pts):
+olap的操作
+data reduction的方法
+bitmap join是怎么操作的
+NB需要学习的参数
+为什么逻辑回归是特殊情况的softmax
+kmeans的一个优点和两个缺点
+keans分解成矩阵相乘的形式矩阵的维度
+
+以下8选6 (each 13pts)
+
+2.OLAP
+一个cube 有ABC 三个dimension：
+
+1）求cuboid数量
+2）如果base cuboid 有3个tuple,求complete data cube 中tuple最多和最少的数量
+3）MOLAP中的map function写法
+
+3.给出用python写的修改过的buc 算法，写出结果
+4.写出binning的递推公式 写出dp的结果
+
+5.
+1）利用决策树cart算法，计算第一次split的依据 
+2）朴素贝叶斯 + add1-smoothing
+6.
+层次聚类：给出distance matrix  按照group average计算聚类的结果
+7.
+逻辑回归：给出W和dataset计算概率和预测的结果
+8.
+关系挖掘：写出FP growth的过程和结果 
+9.
+推荐系统之矩阵分解：给出矩阵,计算随机梯度下降(sgd)的损失函数 和 sgd之后的结果
